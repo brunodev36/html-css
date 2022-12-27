@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercíco deTabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+       caption {
+        font-size: 1.3em;
+        font-weight: bolder;
+        padding: 9px;
+       }
+
+        table {
+            width: 540px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 9px;
+        }
+
+        .colnome {
+            background-color: rgba(137, 43, 226, 0.616);
+        }
+
+        .colidade{
+            background-color: rgba(210, 105, 30, 0.623);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="colnome">
+            <col class="colsexo">
+            <col class="colidade">
+            <col class="colprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Professão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>M</td>
+            <td>36</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Manoella</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Milena</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Astronôma</td>
+        </tr>
+        <tr>
+            <td>Bárbara</td>
+            <td>F</td>
+            <td>33</td>
+            <td>Cozinheira</td>
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Esteticista</td>
+        </tr>
+    </table>
+</body>
+</html>
